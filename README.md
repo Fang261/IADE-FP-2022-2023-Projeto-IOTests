@@ -8,13 +8,15 @@ Além das instruções previstas, inclui uma instrução `X`, que mostra o estad
 
 ## Utilização dos testes
 
-1. Executar o teste com o programa compilado
+1. Copiar o diretório `iotests` para o projeto.
+
+2. Executar o teste com o programa compilado
 
 ```
 ./main < iotests/RJ.in > RJ.mine.out
 ```
 
-2. Comparar o resultado gerado com o resultado em iotests.
+3. Comparar o resultado gerado com o resultado em iotests.
 
 A comparação pode ser feita no VSCode, tal como indicado no enunciadodo projeto. Pode também ser feita no terminal, recorrendo ao comando `diff`:
 
